@@ -20,6 +20,7 @@ body {
   background: #f9f6f3;
   position: relative;
   margin: 0 0 20% 20%;
+  margin-right: 25%;
 }
 @media screen and (max-width: 768px) {
   body {
