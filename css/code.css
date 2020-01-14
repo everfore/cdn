@@ -1,30 +1,34 @@
-pre{
-	/*background-color: #f2f2f2;*/
-	color: #595957;
-	margin-right: 20%;
+  pre{
+  background-color: #f2f2f2;
+  color: #595957;
+  width: 100%;
+  white-space:nowrap;
+ /* white-space:normal;
+  word-wrap:break-word;
+  word-break:break-all;*/
 }
 .lineA{
-	/*background-color: #f2f8f2;*/
-	height: 20px;
+  background-color: #f2f8f2;
+  height: 20px;
 }
 .lineB{
-	background-color: #dfe2dc;
-	height: 20px;
+  background-color: #dfe2dc;
+  height: 20px;
 }
 .line{
-	float:left;
-	width:28px;
-	background-color: #b9b9b9;
+  float:left;
+  width:28px;
+  background-color: #b9b9b9;
 }
 .linenum{
-	color: rgba(27,31,35,0.3);
-	float: left;
-	padding-left: 3px;
-	width: 28px;
-	height: 20px;
-	-moz-user-select: none; /*火狐*/
-	-webkit-user-select: none; /*webkit浏览器*/
-	-ms-user-select: none; /*IE10*/
-	-khtml-user-select: none; /*早期浏览器*/
-	user-select: none;
+  color: rgba(27,31,35,0.3);
+  float: left;
+  padding-left: 3px;
+  width: 28px;
+  height: 20px;
+  -moz-user-select: none; /*火狐*/
+  -webkit-user-select: none; /*webkit浏览器*/
+  -ms-user-select: none; /*IE10*/
+  -khtml-user-select: none; /*早期浏览器*/
+  user-select: none;
 }
